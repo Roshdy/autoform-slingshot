@@ -30,7 +30,7 @@ function configure(api) {
 
   api.addFiles([
     'lib/client/autoform-slingshot.html',
-    'lib/client/autoform-slingshot.less',
+    //'lib/client/autoform-slingshot.less',
     'lib/client/autoform-slingshot.coffee'
   ], 'client');
 

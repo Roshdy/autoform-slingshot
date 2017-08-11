@@ -111,9 +111,7 @@ getCollection = (context) ->
 getTemplate = (filename, parentView) ->
   if filename
     filename = filename.toLowerCase()
-    template = 'fileThumbIcon' + (if parentView.name.indexOf('_ionic') > -1 then '_ionic' else '')
-    if filename.indexOf('.jpg') > -1 || filename.indexOf('.png') > -1 || filename.indexOf('.gif') > -1
-      template = 'fileThumbImg' + (if parentView.name.indexOf('_ionic') > -1 then '_ionic' else '')
+    template = 'fileThumbImg' + (if parentView.name.indexOf('_ionic') > -1 then '_ionic' else '')
     template
 
 uploadWith = (directive, files, name, key, instance) ->
