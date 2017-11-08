@@ -2,7 +2,7 @@ Package.describe({
   name: "roshdy:autoform-slingshot",
   summary: "File upload for AutoForm with Slingshot",
   description: "File upload for AutoForm with Slingshot",
-  version: "1.1.3",
+  version: "1.1.4",
   git: "https://github.com/Roshdy/meteor-autoform-slingshot"
 });
 
