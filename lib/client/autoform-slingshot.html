@@ -20,7 +20,7 @@
 			{{#with fileUpload}}
 				{{> Template.dynamic template=template data=data}}
 			{{/with}}
-			<button class="btn file-upload-clear" file-input="{{name}}"></button>
+			<button type="button" class="btn file-upload-clear" file-input="{{name}}"></button>
 		{{else}}
 			<label class="btn btn-default btn-file">
 				<input class="hidden form-control" name="{{name}}" id="file-{{name}}-{{templateInstanceId}}" file-input="{{name}}" type="file" accept="{{accept}}" />
